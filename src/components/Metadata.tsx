@@ -1,11 +1,14 @@
 import Head from 'next/head'
 
-const siteTitle = 'Backwoods Garden'
+const siteTitle = 'Jardim Caipira'
 
 const Metadata = (): JSX.Element => (
   <Head>
     <link rel='icon' href='/favicon.ico' />
-    <meta name='description' content="Backwoods Garden's Website" />
+    <meta
+      name='description'
+      content='Encontre vasos, plantas ornamentais e artigos de madeira artesanal. Marcenaria com orquídeas, rosas do deserto, cactos, suculentas e mais!'
+    />
     <meta
       property='og:image'
       content={`https://og-image.now.sh/${encodeURI(
