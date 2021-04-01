@@ -1,9 +1,10 @@
+import Header from '../components/Header'
 import Metadata from '../components/Metadata'
 
 const Home = (): JSX.Element => (
   <>
     <Metadata />
-    <header>Navbar</header>
+    <Header />
     <section>Content</section>
     <footer>Footer</footer>
   </>
