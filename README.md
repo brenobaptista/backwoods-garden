@@ -1,6 +1,6 @@
 # Backwoods Garden
 
-> A website for Backwoods Garden made using Next.js + TypeScript + Tailwind CSS.
+> Backwoods Garden's website made using Next.js + Tailwind CSS.
 
 ## Features
 
