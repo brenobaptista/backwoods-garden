@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "10.0.0",
@@ -26,7 +27,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": ">=4",
+    "husky": "^6.0.0",
     "lint-staged": ">=10",
     "postcss": "^8.2.9",
     "prettier": "^2.1.2",
