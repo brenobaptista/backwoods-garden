@@ -1,10 +1,10 @@
-import Header from '../components/Header'
+import Hero from '../components/Hero'
 import Metadata from '../components/Metadata'
 
 const Home = (): JSX.Element => (
   <>
     <Metadata />
-    <Header />
+    <Hero />
     <section>Produtos</section>
     <section>Vídeos</section>
     <section>Avaliações (Testemunho) (review do Google)</section>
