@@ -5,8 +5,10 @@ const Home = (): JSX.Element => (
   <>
     <Metadata />
     <Header />
-    <section>Content</section>
-    <footer>Footer</footer>
+    <section>Produtos</section>
+    <section>Vídeos</section>
+    <section>Avaliações (Testemunho) (review do Google)</section>
+    <footer>Redes sociais, horário de funcionamento e endereço</footer>
   </>
 )
 
