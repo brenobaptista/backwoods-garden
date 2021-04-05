@@ -1,9 +1,11 @@
 import Hero from '../components/Hero'
 import Metadata from '../components/Metadata'
+import Navbar from '../components/Navbar'
 
 const Home = (): JSX.Element => (
   <>
     <Metadata />
+    <Navbar />
     <Hero />
     <section>Produtos</section>
     <section>Vídeos</section>
