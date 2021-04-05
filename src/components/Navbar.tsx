@@ -11,13 +11,13 @@ const Navbar = (): JSX.Element => {
         <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
           <div className='w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start'>
             <a
-              className='text-sm md:text-base font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-gray-800'
+              className='text-sm md:text-base font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase'
               href='#jardim-caipira'
             >
               Jardim Caipira
             </a>
             <button
-              className='text-gray-800 cursor-pointer text-xl leading-none px-3 py-2 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
+              className='cursor-pointer text-xl leading-none px-3 py-2 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
               type='button'
               onClick={() => setIsOpen(!isOpen)}
             >
@@ -33,7 +33,7 @@ const Navbar = (): JSX.Element => {
             <ul className='flex flex-col lg:flex-row list-none lg:ml-auto'>
               <li className='nav-item'>
                 <a
-                  className='px-3 py-2 flex items-center text-xs md:text-sm uppercase font-bold leading-snug text-gray-800 hover:opacity-75'
+                  className='px-3 py-2 flex items-center text-xs md:text-sm uppercase font-bold leading-snug hover:opacity-75'
                   href='#produtos'
                 >
                   Produtos
@@ -41,7 +41,7 @@ const Navbar = (): JSX.Element => {
               </li>
               <li className='nav-item'>
                 <a
-                  className='px-3 py-2 flex items-center text-xs md:text-sm uppercase font-bold leading-snug text-gray-800 hover:opacity-75'
+                  className='px-3 py-2 flex items-center text-xs md:text-sm uppercase font-bold leading-snug hover:opacity-75'
                   href='#videos'
                 >
                   Vídeos
@@ -49,7 +49,7 @@ const Navbar = (): JSX.Element => {
               </li>
               <li className='nav-item'>
                 <a
-                  className='px-3 py-2 flex items-center text-xs md:text-sm uppercase font-bold leading-snug text-gray-800 hover:opacity-75'
+                  className='px-3 py-2 flex items-center text-xs md:text-sm uppercase font-bold leading-snug hover:opacity-75'
                   href='#avaliacoes'
                 >
                   Avaliações
