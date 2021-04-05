@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
             property='og:image'
             content={`https://og-image.now.sh/${encodeURI(
               siteTitle
-            )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+            )}.png?theme=light&md=0&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg&widths=50&heights=50`}
           />
           <meta name='og:title' content={siteTitle} />
           <meta name='twitter:card' content='summary_large_image' />
