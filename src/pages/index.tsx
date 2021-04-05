@@ -10,7 +10,10 @@ const Home = (): JSX.Element => (
     <section>Produtos</section>
     <section>Vídeos</section>
     <section>Avaliações (Testemunho) (review do Google)</section>
-    <footer>Redes sociais, horário de funcionamento e endereço</footer>
+    <footer>
+      Redes sociais (WhatsApp, Facebook, Instagram e talvez Tik Tok), horário de
+      funcionamento e endereço. Abaixo colocar feito por Breno Baptista
+    </footer>
   </>
 )
 
