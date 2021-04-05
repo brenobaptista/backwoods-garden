@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import Hamburger from './icons/Hamburger'
+
 const Navbar = (): JSX.Element => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -19,7 +21,7 @@ const Navbar = (): JSX.Element => {
               type='button'
               onClick={() => setIsOpen(!isOpen)}
             >
-              Hamburger
+              <Hamburger width={20} height={20} />
             </button>
           </div>
           <div
