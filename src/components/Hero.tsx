@@ -5,13 +5,13 @@ const Hero = (): JSX.Element => (
     </div>
     <div className='flex justify-center mt-20'>
       <a
-        className='w-40 lg:w-64 text-base lg:text-xl mr-2 lg:mr-4 shadow-lg rounded p-4 text-center border-2 border-green-600 hover:border-green-700 bg-green-600 hover:bg-green-700 text-white'
+        className='w-40 lg:w-64 text-base lg:text-xl mr-2 lg:mr-4 shadow-lg rounded p-4 text-center border-2 border-green-600 hover:border-green-700 bg-green-600 hover:bg-green-700 text-white transition'
         href='#produtos'
       >
         Ver Produtos
       </a>
       <a
-        className='w-40 lg:w-64 text-base lg:text-xl ml-2 lg:mr-4 shadow-lg rounded p-4 text-center border-2 border-green-600 hover:border-green-800 text-green-600 hover:text-green-800'
+        className='w-40 lg:w-64 text-base lg:text-xl ml-2 lg:mr-4 shadow-lg rounded p-4 text-center border-2 border-green-600 hover:bg-green-600 text-green-600 hover:text-white transition'
         href='#whatsapp'
       >
         Abrir WhatsApp
