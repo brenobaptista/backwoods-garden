@@ -1,6 +1,6 @@
 const Hero = (): JSX.Element => (
   <header className='py-36 lg:py-56 bg-green-100'>
-    <div className='mx-4 lg:mx-40 text-4xl lg:text-6xl text-center font-medium'>
+    <div className='mx-4 lg:mx-40 text-4xl lg:text-6xl text-center font-bold'>
       Encontre vasos, plantas ornamentais e artigos de madeira artesanal.
     </div>
     <div className='flex justify-center mt-20'>
