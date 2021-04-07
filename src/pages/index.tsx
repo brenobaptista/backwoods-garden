@@ -1,15 +1,17 @@
+import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
+import Products from '../components/Products'
 import Testimonials from '../components/Testimonials'
-import Footer from '../components/Footer'
+import Videos from '../components/Videos'
 
 const Home = (): JSX.Element => (
   <div className='text-gray-800 font-sans'>
     <Navbar />
     <Hero />
-    <section>Produtos</section>
+    <Products />
     <Testimonials />
-    <section>Vídeos</section>
+    <Videos />
     <Footer />
   </div>
 )
