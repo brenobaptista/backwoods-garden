@@ -16,7 +16,7 @@ const Footer = (): JSX.Element => (
             </li>
             <li className='mt-2'>
               <a
-                href='https://www.instagram.com/jardim.caipira'
+                href='http://instagram.com/_u/jardim.caipira'
                 className='hover:underline hover:text-orange-500'
               >
                 Instagram

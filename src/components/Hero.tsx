@@ -6,7 +6,7 @@ const Hero = (): JSX.Element => (
     <div className='flex justify-center mt-20'>
       <a
         className='w-40 lg:w-64 text-base lg:text-xl mr-2 lg:mr-4 shadow-lg rounded p-4 text-center border-2 border-green-600 hover:border-green-700 bg-green-600 hover:bg-green-700 text-white transition'
-        href='#produtos'
+        href='http://instagram.com/_u/jardim.caipira'
       >
         Ver Produtos
       </a>
