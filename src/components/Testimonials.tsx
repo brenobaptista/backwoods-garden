@@ -1,5 +1,5 @@
 const Testimonials = (): JSX.Element => (
-  <section className='bg-gray-100'>
+  <section className='bg-gray-100' id='avaliacoes'>
     <div className='container mx-auto px-6 py-20'>
       <h1 className='text-4xl font-bold text-center mb-8'>Avaliações</h1>
       <div className='flex flex-wrap'>

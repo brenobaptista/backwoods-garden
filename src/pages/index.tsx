@@ -8,8 +8,8 @@ const Home = (): JSX.Element => (
     <Navbar />
     <Hero />
     <section>Produtos</section>
-    <section>Vídeos</section>
     <Testimonials />
+    <section>Vídeos</section>
     <Footer />
   </div>
 )
