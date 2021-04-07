@@ -5,7 +5,11 @@ const Videos = (): JSX.Element => (
       <div className='flex flex-wrap'>
         <div className='w-full md:w-1/2 px-2 mb-4'>
           <div className='bg-white rounded shadow-md py-2'>
-            <a href='https://youtu.be/v3ur8ny3R70'>
+            <a
+              href='https://youtu.be/v3ur8ny3R70'
+              target='_blank'
+              rel='noreferrer noopener'
+            >
               <img
                 width='640'
                 height='320'
@@ -20,7 +24,11 @@ const Videos = (): JSX.Element => (
         </div>
         <div className='w-full md:w-1/2 px-2 mb-4'>
           <div className='bg-white rounded shadow-md py-2'>
-            <a href='https://youtu.be/uKapAnCC9Bg'>
+            <a
+              href='https://youtu.be/uKapAnCC9Bg'
+              target='_blank'
+              rel='noreferrer noopener'
+            >
               <img
                 width='640'
                 height='320'
