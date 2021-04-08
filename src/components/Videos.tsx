@@ -13,7 +13,7 @@ const Videos = (): JSX.Element => (
               rel='noreferrer noopener'
             >
               <Image
-                src='/images/como-tratar-raizes-podres.jpg'
+                src='/images/thumbnails/como-tratar-raizes-podres.jpg'
                 alt='Como tratar raízes podres'
                 width={728}
                 height={410}
@@ -32,7 +32,7 @@ const Videos = (): JSX.Element => (
               rel='noreferrer noopener'
             >
               <Image
-                src='/images/resultado-do-tratamento.jpg'
+                src='/images/thumbnails/resultado-do-tratamento.jpg'
                 alt='Resultado do tratamento'
                 width={728}
                 height={410}
