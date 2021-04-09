@@ -1,10 +1,17 @@
+import Clock from './icons/Clock'
+import Comment from './icons/Comment'
+import Map from './icons/Map'
+
 const Footer = (): JSX.Element => (
   <footer className='bg-gray-100'>
     <div className='container mx-auto p-6'>
       <div className='flex flex-wrap'>
         <div className='md:w-1/6' />
         <div className='w-full md:w-1/4 text-center md:text-left'>
-          <h3 className='uppercase mt-6 md:mt-0 md:mb-6 font-bold'>Contato</h3>
+          <h3 className='flex space-x-1.5 uppercase mt-6 md:mt-0 md:mb-6 font-bold'>
+            <Comment width={16} height={24} />
+            <span>Contato</span>
+          </h3>
           <ul className='mb-4 text-gray-600'>
             <li className='mt-2'>
               <a
@@ -39,7 +46,10 @@ const Footer = (): JSX.Element => (
           </ul>
         </div>
         <div className='w-full md:w-1/4 text-center md:text-left'>
-          <h3 className='uppercase mt-6 md:mt-0 md:mb-6 font-bold'>Endereço</h3>
+          <h3 className='flex space-x-1.5 uppercase mt-6 md:mt-0 md:mb-6 font-bold'>
+            <Map width={16} height={24} />
+            <span>Endereço</span>
+          </h3>
           <p>
             Rua Um, 307
             <br />
@@ -51,7 +61,10 @@ const Footer = (): JSX.Element => (
           </p>
         </div>
         <div className='w-full md:w-1/4 text-center md:text-left'>
-          <h3 className='uppercase mt-6 md:mt-0 md:mb-6 font-bold'>Horários</h3>
+          <h3 className='flex space-x-1.5 uppercase mt-6 md:mt-0 md:mb-6 font-bold'>
+            <Clock width={16} height={24} />
+            <span>Horários</span>
+          </h3>
           <p>
             Segunda: Fechado
             <br />
