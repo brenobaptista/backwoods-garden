@@ -1,5 +1,5 @@
 const Hero = (): JSX.Element => (
-  <header className='bg-green-100'>
+  <header className='bg-gradient-to-br from-green-50 to-green-300'>
     <div className='container mx-auto px-6 pt-36 pb-20 lg:pt-56 lg:pb-40'>
       <div className='mx-4 lg:mx-40 text-4xl lg:text-6xl text-center font-bold'>
         Encontre vasos, plantas ornamentais e artigos de madeira artesanal.
