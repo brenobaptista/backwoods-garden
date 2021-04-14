@@ -9,7 +9,7 @@ const Footer = (): JSX.Element => (
         <div className='md:w-1/6' />
         <div className='w-full md:w-1/4 text-center md:text-left'>
           <h2 className='flex space-x-1.5 uppercase mt-6 md:mt-0 md:mb-6 font-bold'>
-            <Comment width={16} height={24} />
+            <Comment width={16} height={24} color='#1f2937' />
             <span>Contato</span>
           </h2>
           <ul className='mb-4 text-gray-600'>
@@ -47,7 +47,7 @@ const Footer = (): JSX.Element => (
         </div>
         <div className='w-full md:w-1/4 text-center md:text-left'>
           <h2 className='flex space-x-1.5 uppercase mt-6 md:mt-0 md:mb-6 font-bold'>
-            <Map width={16} height={24} />
+            <Map width={16} height={24} color='#1f2937' />
             <span>Endereço</span>
           </h2>
           <p>
@@ -62,7 +62,7 @@ const Footer = (): JSX.Element => (
         </div>
         <div className='w-full md:w-1/4 text-center md:text-left'>
           <h2 className='flex space-x-1.5 uppercase mt-6 md:mt-0 md:mb-6 font-bold'>
-            <Clock width={16} height={24} />
+            <Clock width={16} height={24} color='#1f2937' />
             <span>Horários</span>
           </h2>
           <p>
