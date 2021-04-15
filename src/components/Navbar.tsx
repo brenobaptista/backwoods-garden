@@ -18,7 +18,7 @@ const Navbar = (): JSX.Element => {
               type='button'
               onClick={() => setIsOpen(!isOpen)}
             >
-              <Hamburger width={20} height={20} color='#1f2937' />
+              <Hamburger width={20} height={20} />
             </button>
           </div>
           <div
