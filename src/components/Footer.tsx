@@ -4,11 +4,11 @@ import Map from './icons/Map'
 
 const Footer = (): JSX.Element => (
   <footer className='bg-white'>
-    <div className='container mx-auto p-6'>
+    <div className='container mx-auto mb-6 md:mb-0 p-6'>
       <div className='flex flex-wrap'>
         <div className='md:w-1/6' />
         <div className='w-full md:w-1/4 text-center md:text-left'>
-          <h2 className='flex space-x-1.5 uppercase mt-6 md:mt-0 md:mb-6 font-bold'>
+          <h2 className='flex justify-center md:justify-start space-x-1.5 uppercase mt-6 md:mt-0 md:mb-6 font-bold'>
             <Comment width={16} height={24} />
             <span>Contato</span>
           </h2>
@@ -46,7 +46,7 @@ const Footer = (): JSX.Element => (
           </ul>
         </div>
         <div className='w-full md:w-1/4 text-center md:text-left'>
-          <h2 className='flex space-x-1.5 uppercase mt-6 md:mt-0 md:mb-6 font-bold'>
+          <h2 className='flex justify-center md:justify-start space-x-1.5 uppercase mt-6 md:mt-0 md:mb-6 font-bold'>
             <Map width={16} height={24} />
             <span>Endereço</span>
           </h2>
@@ -61,7 +61,7 @@ const Footer = (): JSX.Element => (
           </p>
         </div>
         <div className='w-full md:w-1/4 text-center md:text-left'>
-          <h2 className='flex space-x-1.5 uppercase mt-6 md:mt-0 md:mb-6 font-bold'>
+          <h2 className='flex justify-center md:justify-start space-x-1.5 uppercase mt-6 md:mt-0 md:mb-6 font-bold'>
             <Clock width={16} height={24} />
             <span>Horários</span>
           </h2>
