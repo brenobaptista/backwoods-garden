@@ -10,8 +10,8 @@ const Products = (): JSX.Element => (
             src='/images/products/cactos.jpg'
             alt='Cactos'
             className='rounded'
-            width={500}
-            height={500}
+            width={600}
+            height={600}
           />
         </div>
         <div className='w-full md:w-1/3 px-2 mb-2'>
@@ -19,8 +19,8 @@ const Products = (): JSX.Element => (
             src='/images/products/decoracao.jpg'
             alt='Decoração'
             className='rounded'
-            width={500}
-            height={500}
+            width={600}
+            height={600}
           />
         </div>
         <div className='w-full md:w-1/3 px-2 mb-2'>
@@ -28,8 +28,8 @@ const Products = (): JSX.Element => (
             src='/images/products/suculenta.jpg'
             alt='Suculenta'
             className='rounded'
-            width={500}
-            height={500}
+            width={600}
+            height={600}
           />
         </div>
         <div className='w-full md:w-1/3 px-2 mb-2'>
@@ -37,8 +37,8 @@ const Products = (): JSX.Element => (
             src='/images/products/orquidea.jpg'
             alt='Orquídea'
             className='rounded'
-            width={500}
-            height={500}
+            width={600}
+            height={600}
           />
         </div>
         <div className='w-full md:w-1/3 px-2 mb-2'>
@@ -46,8 +46,8 @@ const Products = (): JSX.Element => (
             src='/images/products/gloxinia.jpg'
             alt='Gloxinia'
             className='rounded'
-            width={500}
-            height={500}
+            width={600}
+            height={600}
           />
         </div>
         <div className='w-full md:w-1/3 px-2 mb-2'>
@@ -55,8 +55,8 @@ const Products = (): JSX.Element => (
             src='/images/products/bungavile.jpg'
             alt='Bungavile'
             className='rounded'
-            width={500}
-            height={500}
+            width={600}
+            height={600}
           />
         </div>
       </div>
