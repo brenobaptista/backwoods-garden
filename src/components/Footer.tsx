@@ -19,7 +19,7 @@ const Footer = (): JSX.Element => (
             <li className='mt-2'>
               <a
                 href='https://api.whatsapp.com/send?phone=5585988709845&text=Ol%C3%A1!%20Peguei%20seu%20telefone%20no%20site%20do%20Jardim%20Caipira.'
-                className='flex justify-center md:justify-start space-x-1.5 hover:underline hover:text-orange-500'
+                className='flex justify-center md:justify-start space-x-1.5'
                 target='_blank'
                 rel='noreferrer noopener'
               >
@@ -30,7 +30,7 @@ const Footer = (): JSX.Element => (
             <li className='mt-2'>
               <a
                 href='http://instagram.com/_u/jardim.caipira'
-                className='flex justify-center md:justify-start space-x-1.5 hover:underline hover:text-orange-500'
+                className='flex justify-center md:justify-start space-x-1.5'
                 target='_blank'
                 rel='noreferrer noopener'
               >
@@ -41,7 +41,7 @@ const Footer = (): JSX.Element => (
             <li className='mt-2'>
               <a
                 href='https://www.facebook.com/jardimcaipira'
-                className='flex justify-center md:justify-start space-x-1.5 hover:underline hover:text-orange-500'
+                className='flex justify-center md:justify-start space-x-1.5'
                 target='_blank'
                 rel='noreferrer noopener'
               >
