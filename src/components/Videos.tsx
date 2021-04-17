@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Videos = (): JSX.Element => (
   <section
-    className='bg-gradient-to-br from-green-100 to-green-400'
+    className='bg-gradient-to-t from-leafy-light to-leafy-dark'
     id='videos'
   >
     <div className='container mx-auto px-6 py-20'>
