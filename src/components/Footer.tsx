@@ -1,6 +1,9 @@
 import Clock from './icons/Clock'
 import Comment from './icons/Comment'
+import Facebook from './icons/Facebook'
+import Instagram from './icons/Instagram'
 import Map from './icons/Map'
+import WhatsApp from './icons/WhatsApp'
 
 const Footer = (): JSX.Element => (
   <footer className='bg-white'>
@@ -16,31 +19,34 @@ const Footer = (): JSX.Element => (
             <li className='mt-2'>
               <a
                 href='https://api.whatsapp.com/send?phone=5585988709845&text=Ol%C3%A1!%20Peguei%20seu%20telefone%20no%20site%20do%20Jardim%20Caipira.'
-                className='hover:underline hover:text-orange-500'
+                className='flex justify-center md:justify-start space-x-1.5 hover:underline hover:text-orange-500'
                 target='_blank'
                 rel='noreferrer noopener'
               >
-                WhatsApp
+                <WhatsApp width={16} height={24} />
+                <span>WhatsApp</span>
               </a>
             </li>
             <li className='mt-2'>
               <a
                 href='http://instagram.com/_u/jardim.caipira'
-                className='hover:underline hover:text-orange-500'
+                className='flex justify-center md:justify-start space-x-1.5 hover:underline hover:text-orange-500'
                 target='_blank'
                 rel='noreferrer noopener'
               >
-                Instagram
+                <Instagram width={16} height={24} />
+                <span>Instagram</span>
               </a>
             </li>
             <li className='mt-2'>
               <a
                 href='https://www.facebook.com/jardimcaipira'
-                className='hover:underline hover:text-orange-500'
+                className='flex justify-center md:justify-start space-x-1.5 hover:underline hover:text-orange-500'
                 target='_blank'
                 rel='noreferrer noopener'
               >
-                Facebook
+                <Facebook width={16} height={24} />
+                <span>Facebook</span>
               </a>
             </li>
           </ul>
