@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import Hamburger from './icons/Hamburger'
+import Leaf from './icons/Leaf'
 
 const Navbar = (): JSX.Element => {
   const [isOpen, setIsOpen] = useState(false)
@@ -10,8 +11,9 @@ const Navbar = (): JSX.Element => {
       <nav className='fixed w-full shadow-md flex flex-wrap items-center justify-between px-2 py-3 bg-white z-10'>
         <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
           <div className='w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start'>
-            <div className='text-sm lg:text-base font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase'>
-              Jardim Caipira
+            <div className='flex justify-start space-x-2 text-sm lg:text-base font-bold leading-relaxed mr-4 py-2 whitespace-nowrap'>
+              <Leaf width={20} height={22} />
+              <span>Jardim Caipira</span>
             </div>
             <button
               className='cursor-pointer text-xl leading-none px-3 py-2 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
