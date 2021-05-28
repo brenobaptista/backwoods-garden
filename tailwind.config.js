@@ -9,7 +9,10 @@ module.exports = {
           DEFAULT: '#548c71',
           dark: '#d7eae4'
         }
-      }
+      },
+      backgroundImage: () => ({
+        'hero-desktop': "url('/images/hero-desktop.png')"
+      })
     }
   },
   variants: {
