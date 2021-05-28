@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 const Videos = (): JSX.Element => (
   <section
     className='bg-gradient-to-t from-leafy-light to-leafy-dark'
@@ -15,11 +13,11 @@ const Videos = (): JSX.Element => (
               target='_blank'
               rel='noreferrer noopener'
             >
-              <Image
+              <img
                 src='/images/thumbnails/como-tratar-raizes-podres.jpg'
                 alt='Como tratar raízes podres'
-                width={728}
-                height={410}
+                width={712}
+                height={401}
               />
               <p className='text-lg lg:text-2xl text-center font-semibold pt-2 pb-4'>
                 Como tratar raízes podres
@@ -34,11 +32,11 @@ const Videos = (): JSX.Element => (
               target='_blank'
               rel='noreferrer noopener'
             >
-              <Image
+              <img
                 src='/images/thumbnails/resultado-do-tratamento.jpg'
                 alt='Resultado do tratamento'
-                width={728}
-                height={410}
+                width={712}
+                height={401}
               />
               <p className='text-lg lg:text-2xl text-center font-semibold pt-2 pb-4'>
                 Resultado do tratamento
