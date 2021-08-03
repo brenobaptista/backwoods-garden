@@ -1,6 +1,6 @@
 const Videos = (): JSX.Element => (
   <section
-    className='bg-gradient-to-t from-leafy-light to-leafy-dark'
+    className='bg-gradient-to-t from-leafy-lighter to-leafy-light'
     id='videos'
   >
     <div className='container mx-auto px-6 py-20'>

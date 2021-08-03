@@ -5,9 +5,10 @@ module.exports = {
     extend: {
       colors: {
         leafy: {
-          light: '#e6f5f2',
+          lighter: '#e6f5f2',
+          light: '#d7eae4',
           DEFAULT: '#548c71',
-          dark: '#d7eae4'
+          dark: '#345548'
         }
       },
       backgroundImage: () => ({
