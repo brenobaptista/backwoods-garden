@@ -11,8 +11,8 @@ const Navbar = (): JSX.Element => {
       <nav className='fixed w-full shadow-md flex flex-wrap items-center justify-between px-2 py-3 bg-white z-10'>
         <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
           <div className='w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start'>
-            <div className='flex justify-start space-x-2 text-sm lg:text-base font-bold leading-relaxed mr-4 py-2 whitespace-nowrap'>
-              <Leaf width={20} height={22} />
+            <div className='flex justify-start space-x-2 text-base lg:text-lg font-bold leading-relaxed mr-4 py-2 whitespace-nowrap'>
+              <Leaf width={22} height={26} />
               <span>Jardim Caipira</span>
             </div>
             <button
