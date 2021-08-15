@@ -1,7 +1,7 @@
 import Heart from './icons/Heart'
 
 const Testimonials = (): JSX.Element => (
-  <section className='bg-gray-100' id='avaliacoes'>
+  <section className='bg-fixed bg-heart-pattern' id='avaliacoes'>
     <div className='container mx-auto px-6 py-20'>
       <h1 className='text-4xl font-bold text-center mb-12'>Avaliações</h1>
       <div className='flex flex-wrap'>
