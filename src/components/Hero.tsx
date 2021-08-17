@@ -6,7 +6,7 @@ const Hero = (): JSX.Element => (
       </div>
       <div className='flex justify-center mt-20'>
         <a
-          className='w-40 lg:w-64 text-base lg:text-xl mr-2 lg:mr-4 shadow-md rounded p-4 text-center border-2 border-leafy-dark bg-leafy-dark hover:opacity-75 text-white transition'
+          className='w-40 lg:w-64 text-base lg:text-xl mr-2 lg:mr-4 shadow-md rounded p-4 text-center border-2 border-leafy-dark bg-leafy-dark hover:opacity-75 text-white transition duration-300 ease-in-out'
           href='http://instagram.com/_u/jardim.caipira'
           target='_blank'
           rel='noreferrer noopener'
@@ -14,7 +14,7 @@ const Hero = (): JSX.Element => (
           Ver Instagram
         </a>
         <a
-          className='w-40 lg:w-64 text-base lg:text-xl ml-2 lg:mr-4 shadow-md rounded p-4 text-center border-2 border-leafy-dark hover:bg-leafy-dark text-leafy-dark hover:text-white transition'
+          className='w-40 lg:w-64 text-base lg:text-xl ml-2 lg:mr-4 shadow-md rounded p-4 text-center border-2 border-leafy-dark hover:bg-leafy-dark text-leafy-dark hover:text-white transition duration-300 ease-in-out'
           href='https://api.whatsapp.com/send?phone=5585988709845&text=Ol%C3%A1!%20Peguei%20seu%20telefone%20no%20site%20do%20Jardim%20Caipira.'
           target='_blank'
           rel='noreferrer noopener'
