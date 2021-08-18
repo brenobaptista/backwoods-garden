@@ -1,10 +1,14 @@
 const Hero = (): JSX.Element => (
   <header className='bg-leafy-lighter lg:bg-hero-desktop lg:bg-no-repeat lg:bg-right-bottom'>
     <div className='container mx-auto px-6 pt-36 pb-20 lg:pt-56 lg:pb-40'>
-      <div className='mx-4 lg:mx-40 text-4xl lg:text-6xl text-center font-bold'>
-        Encontre vasos, plantas ornamentais e artigos de madeira artesanal.
+      <div className='max-w-3xl text-4xl lg:text-6xl font-bold'>
+        Encontre vasos, plantas ornamentais e artigos de madeira artesanal
       </div>
-      <div className='flex justify-center mt-20'>
+      <p className='max-w-3xl mt-8 text-gray-600 text-xl lg:text-2xl'>
+        Queremos deixar o seu jardim cada vez mais lindo! Temos uma enorme
+        variedade de plantas, vasos e decorações para sua casa.
+      </p>
+      <div className='flex justify-center lg:justify-start mt-16'>
         <a
           className='w-40 lg:w-64 text-base lg:text-xl mr-2 lg:mr-4 shadow-md rounded p-4 text-center border-2 border-leafy-dark bg-leafy-dark hover:opacity-75 text-white transition duration-300 ease-in-out'
           href='http://instagram.com/_u/jardim.caipira'
