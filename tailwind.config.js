@@ -12,8 +12,7 @@ module.exports = {
         }
       },
       backgroundImage: () => ({
-        'hero-desktop': "url('/images/hero-desktop.png')",
-        'heart-pattern': "url('/images/heart-pattern.jpg')"
+        'hero-desktop': "url('/images/hero-desktop.png')"
       })
     }
   },

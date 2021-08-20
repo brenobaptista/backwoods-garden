@@ -1,7 +1,7 @@
 import Heart from './icons/Heart'
 
 const Testimonials = (): JSX.Element => (
-  <section className='bg-heart-pattern' id='avaliacoes'>
+  <section className='bg-gray-100' id='avaliacoes'>
     <div className='container mx-auto px-6 py-20'>
       <div className='flex flex-wrap'>
         <div className='w-full md:w-1/3 px-2 mb-4'>
@@ -11,8 +11,8 @@ const Testimonials = (): JSX.Element => (
               contar a variedade! Adoro esse lugar 😁👏
             </p>
             <p className='flex justify-start space-x-1.5 text-gray-500 text-xs md:text-sm px-6'>
-              <span>Fernanda (Facebook)</span>
               <Heart width={16} height={18} />
+              <span>Fernanda (Facebook)</span>
             </p>
           </div>
         </div>
@@ -26,8 +26,8 @@ const Testimonials = (): JSX.Element => (
               dia).
             </p>
             <p className='flex justify-start space-x-1.5 text-gray-500 text-xs md:text-sm px-6'>
-              <span>Dhayana (Google)</span>
               <Heart width={16} height={18} />
+              <span>Dhayana (Google)</span>
             </p>
           </div>
         </div>
@@ -38,8 +38,8 @@ const Testimonials = (): JSX.Element => (
               realmente ela transfere todo esse amor e carinho para as plantas.
             </p>
             <p className='flex justify-start space-x-1.5 text-gray-500 text-xs md:text-sm px-6'>
-              <span>Silvia (Facebook)</span>
               <Heart width={16} height={18} />
+              <span>Silvia (Facebook)</span>
             </p>
           </div>
         </div>
