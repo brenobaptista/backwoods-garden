@@ -1,5 +1,5 @@
 const Products = (): JSX.Element => (
-  <section className='bg-white' id='produtos'>
+  <section className='bg-white dark:bg-gray-800' id='produtos'>
     <div className='container mx-auto px-6 py-20'>
       <h1 className='text-4xl font-bold text-center mb-4'>
         Conheça Nossos Produtos
@@ -9,7 +9,7 @@ const Products = (): JSX.Element => (
         informações.
       </p>
       <div className='flex flex-wrap'>
-        <div className='w-full md:w-1/3 px-2 mb-2'>
+        <div className='w-full md:w-1/3 p-4'>
           <div className='group flex justify-center items-center bg-black text-gray-200 rounded'>
             <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
               <img
@@ -28,7 +28,7 @@ const Products = (): JSX.Element => (
           </div>
         </div>
 
-        <div className='w-full md:w-1/3 px-2 mb-2'>
+        <div className='w-full md:w-1/3 p-4'>
           <div className='group flex justify-center items-center bg-black text-gray-200 rounded'>
             <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
               <img
@@ -47,7 +47,7 @@ const Products = (): JSX.Element => (
           </div>
         </div>
 
-        <div className='w-full md:w-1/3 px-2 mb-2'>
+        <div className='w-full md:w-1/3 p-4'>
           <div className='group flex justify-center items-center bg-black text-gray-200 rounded'>
             <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
               <img
@@ -66,7 +66,7 @@ const Products = (): JSX.Element => (
           </div>
         </div>
 
-        <div className='w-full md:w-1/3 px-2 mb-2'>
+        <div className='w-full md:w-1/3 p-4'>
           <div className='group flex justify-center items-center bg-black text-gray-200 rounded'>
             <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
               <img
@@ -85,7 +85,7 @@ const Products = (): JSX.Element => (
           </div>
         </div>
 
-        <div className='w-full md:w-1/3 px-2 mb-2'>
+        <div className='w-full md:w-1/3 p-4'>
           <div className='group flex justify-center items-center bg-black text-gray-200 rounded'>
             <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
               <img
@@ -104,7 +104,7 @@ const Products = (): JSX.Element => (
           </div>
         </div>
 
-        <div className='w-full md:w-1/3 px-2 mb-2'>
+        <div className='w-full md:w-1/3 p-4'>
           <div className='group flex justify-center items-center bg-black text-gray-200 rounded'>
             <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
               <img

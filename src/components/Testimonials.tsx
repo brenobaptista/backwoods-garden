@@ -1,11 +1,11 @@
 import Heart from './icons/Heart'
 
 const Testimonials = (): JSX.Element => (
-  <section className='bg-gray-100' id='avaliacoes'>
+  <section className='bg-gray-100 dark:bg-gray-900' id='avaliacoes'>
     <div className='container mx-auto px-6 py-20'>
       <div className='flex flex-wrap'>
         <div className='w-full md:w-1/3 px-2 mb-4'>
-          <div className='bg-white rounded shadow-md py-4'>
+          <div className='bg-white dark:bg-gray-800 rounded shadow-md py-4'>
             <p className='text-base px-6 mb-5'>
               Ótimo atendimento, a Eva é super atenciosa e ama o que faz, sem
               contar a variedade! Adoro esse lugar 😁👏
@@ -17,7 +17,7 @@ const Testimonials = (): JSX.Element => (
           </div>
         </div>
         <div className='w-full md:w-1/3 px-2 mb-4'>
-          <div className='bg-white rounded shadow-md py-4'>
+          <div className='bg-white dark:bg-gray-800 rounded shadow-md py-4'>
             <p className='text-base px-6 mb-5'>
               Local com diversas opções de plantas! Fiquei encantada! Tem muitas
               opções de vasos também. O adubo é de excelente qualidade e é
@@ -32,7 +32,7 @@ const Testimonials = (): JSX.Element => (
           </div>
         </div>
         <div className='w-full md:w-1/3 px-2 mb-4'>
-          <div className='bg-white rounded shadow-md py-4'>
+          <div className='bg-white dark:bg-gray-800 rounded shadow-md py-4'>
             <p className='text-base px-6 mb-5'>
               Eva tem um excelente atendimento e muito amor pelo que faz,
               realmente ela transfere todo esse amor e carinho para as plantas.
