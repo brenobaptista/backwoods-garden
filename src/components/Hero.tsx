@@ -13,7 +13,7 @@ const Hero = (): JSX.Element => (
       </p>
       <div className='flex flex-col sm:flex-row justify-center lg:justify-start items-center space-y-4 sm:space-y-0 sm:space-x-6 mt-16'>
         <a
-          className='flex justify-center space-x-2 w-64 text-base lg:text-xl shadow-md rounded p-4 text-center border-2 bg-green-800 border-green-800 dark:bg-green-900 dark:border-green-900 hover:opacity-75 text-white transition duration-300 ease-in-out'
+          className='flex justify-center space-x-2 w-64 text-base lg:text-xl shadow-xl rounded p-4 text-center border-2 bg-green-800 border-green-800 dark:bg-green-900 dark:border-green-900 hover:opacity-75 text-white transition duration-300 ease-in-out'
           href='http://instagram.com/_u/jardim.caipira'
           target='_blank'
           rel='noreferrer noopener'
@@ -22,7 +22,7 @@ const Hero = (): JSX.Element => (
           <span>Ver Instagram</span>
         </a>
         <a
-          className='flex justify-center space-x-2 w-64 text-base lg:text-xl shadow-md rounded p-4 text-center border-2 hover:bg-green-800 border-green-800 text-green-800 dark:hover:bg-green-900 dark:border-green-900 dark:text-white hover:text-white transition duration-300 ease-in-out'
+          className='flex justify-center space-x-2 w-64 text-base lg:text-xl shadow-xl rounded p-4 text-center border-2 hover:bg-green-800 border-green-800 text-green-800 dark:hover:bg-green-900 dark:border-green-900 dark:text-white hover:text-white transition duration-300 ease-in-out'
           href='https://api.whatsapp.com/send?phone=5585988709845&text=Ol%C3%A1!%20Peguei%20seu%20telefone%20no%20site%20do%20Jardim%20Caipira.'
           target='_blank'
           rel='noreferrer noopener'
