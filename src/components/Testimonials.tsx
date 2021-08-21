@@ -10,7 +10,7 @@ const Testimonials = (): JSX.Element => (
               Ótimo atendimento, a Eva é super atenciosa e ama o que faz, sem
               contar a variedade! Adoro esse lugar 😁👏
             </p>
-            <p className='flex justify-start space-x-1.5 text-gray-500 text-xs md:text-sm px-6'>
+            <p className='flex justify-start space-x-1.5 text-gray-500 dark:text-gray-400 text-xs md:text-sm px-6'>
               <Heart width={16} height={18} />
               <span>Fernanda (Facebook)</span>
             </p>
@@ -25,7 +25,7 @@ const Testimonials = (): JSX.Element => (
               crédito (o que facilita pra quem não anda com dinheiro hoje em
               dia).
             </p>
-            <p className='flex justify-start space-x-1.5 text-gray-500 text-xs md:text-sm px-6'>
+            <p className='flex justify-start space-x-1.5 text-gray-500 dark:text-gray-400 text-xs md:text-sm px-6'>
               <Heart width={16} height={18} />
               <span>Dhayana (Google)</span>
             </p>
@@ -37,7 +37,7 @@ const Testimonials = (): JSX.Element => (
               Eva tem um excelente atendimento e muito amor pelo que faz,
               realmente ela transfere todo esse amor e carinho para as plantas.
             </p>
-            <p className='flex justify-start space-x-1.5 text-gray-500 text-xs md:text-sm px-6'>
+            <p className='flex justify-start space-x-1.5 text-gray-500 dark:text-gray-400 text-xs md:text-sm px-6'>
               <Heart width={16} height={18} />
               <span>Silvia (Facebook)</span>
             </p>

@@ -4,7 +4,7 @@ const Products = (): JSX.Element => (
       <h1 className='text-4xl font-bold text-center mb-4'>
         Conheça Nossos Produtos
       </h1>
-      <p className='text-gray-500 mb-12 text-center text-xl'>
+      <p className='text-gray-500 dark:text-gray-400 mb-12 text-center text-xl'>
         Visite nossa loja física ou acesse nossas redes sociais para mais
         informações.
       </p>
