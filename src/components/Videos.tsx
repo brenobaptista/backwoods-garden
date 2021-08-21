@@ -1,10 +1,10 @@
 const Videos = (): JSX.Element => (
-  <section className='bg-green-100 dark:bg-green-700' id='videos'>
+  <section className='bg-indigo-100 dark:bg-gray-700' id='videos'>
     <div className='container mx-auto px-6 py-20'>
       <h1 className='text-4xl font-bold text-center mb-4'>
         Acesse Nossos Vídeos
       </h1>
-      <p className='text-gray-600 dark:text-gray-100 mb-12 text-center text-xl'>
+      <p className='text-gray-600 dark:text-gray-300 mb-12 text-center text-xl'>
         Assista aos vídeos gratuitos que ensinam lições valiosas no cuidado das
         raízes de suas plantas.
       </p>
