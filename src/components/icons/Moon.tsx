@@ -12,7 +12,7 @@ const Moon = ({ width, height }: Props): JSX.Element => (
     fill='none'
     stroke='currentColor'
   >
-    <title>Moon icon</title>
+    <title>Activate light mode</title>
     <path
       strokeLinecap='round'
       strokeLinejoin='round'
