@@ -5,7 +5,16 @@ module.exports = {
     extend: {
       backgroundImage: () => ({
         'hero-desktop': "url('/images/hero-desktop.png')"
-      })
+      }),
+      animation: {
+        beat: 'beat 1s ease-out infinite'
+      },
+      keyframes: {
+        beat: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '25%': { transform: 'scale(1.2)' }
+        }
+      }
     }
   },
   variants: {
