@@ -1,6 +1,7 @@
 import Clock from './icons/Clock'
 import Comment from './icons/Comment'
 import Facebook from './icons/Facebook'
+import Heart from './icons/Heart'
 import Instagram from './icons/Instagram'
 import Map from './icons/Map'
 import WhatsApp from './icons/WhatsApp'
@@ -88,6 +89,21 @@ const Footer = (): JSX.Element => (
           </p>
         </div>
       </div>
+    </div>
+    <div className='bg-gray-100 dark:bg-gray-900 text-center py-2'>
+      © 2019-{new Date().getFullYear()} Jardim Caipira. Feito com
+      <div className='inline-flex'>
+        <Heart width={26} height={13} />
+      </div>
+      por{' '}
+      <a
+        href='https://brenobaptista.vercel.app/'
+        className='text-gray-600 dark:text-gray-400 hover:opacity-75'
+        target='_blank'
+        rel='noreferrer noopener'
+      >
+        Breno Baptista
+      </a>
     </div>
   </footer>
 )
