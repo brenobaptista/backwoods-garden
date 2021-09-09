@@ -12,7 +12,7 @@ const Sun = ({ width, height }: Props): JSX.Element => (
     fill='none'
     stroke='currentColor'
   >
-    <title>Activate dark mode</title>
+    <title>Ativar modo escuro</title>
     <path
       strokeLinecap='round'
       strokeLinejoin='round'
