@@ -9,6 +9,7 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "airbnb",
+    "airbnb/hooks",
     "plugin:prettier/recommended",
     "plugin:@next/next/recommended"
   ],
