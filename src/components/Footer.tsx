@@ -90,20 +90,23 @@ const Footer = (): JSX.Element => (
         </div>
       </div>
     </div>
-    <div className='bg-gray-100 dark:bg-gray-900 text-center py-2'>
-      © 2019-{new Date().getFullYear()} Jardim Caipira. Feito com
-      <div className='inline-flex'>
-        <Heart width={26} height={13} />
-      </div>
-      por{' '}
-      <a
-        href='https://brenobaptista.vercel.app/'
-        className='text-gray-600 dark:text-gray-400 hover:opacity-75'
-        target='_blank'
-        rel='noreferrer noopener'
-      >
-        Breno Baptista
-      </a>
+    <div className='bg-gray-100 dark:bg-gray-900 text-center py-2 flex flex-col sm:block'>
+      <span>© 2019-{new Date().getFullYear()} Jardim Caipira. </span>
+      <span>
+        Feito com
+        <div className='inline-flex'>
+          <Heart width={26} height={13} />
+        </div>
+        por{' '}
+        <a
+          href='https://brenobaptista.vercel.app/'
+          className='text-gray-600 dark:text-gray-400 hover:opacity-75'
+          target='_blank'
+          rel='noreferrer noopener'
+        >
+          Breno Baptista
+        </a>
+      </span>
     </div>
   </footer>
 )
