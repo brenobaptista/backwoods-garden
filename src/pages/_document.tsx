@@ -7,7 +7,9 @@ export default class MyDocument extends Document {
     return (
       <Html lang='pt'>
         <Head>
-          <link rel='icon' href='/favicon.ico' />
+          <link rel='icon' href='/favicon.svg' type='image/svg+xml' />
+          <link rel='apple-touch-icon' href='/apple-touch-icon.png' />
+          <link rel='manifest' href='/site.webmanifest' />
           <meta
             name='description'
             content='Encontre vasos, plantas ornamentais e artigos de madeira artesanal. Marcenaria com orquídeas, rosas do deserto, cactos, suculentas e mais!'
