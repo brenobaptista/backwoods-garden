@@ -1,7 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-export const siteTitle = 'Jardim Caipira'
-
 export default class MyDocument extends Document {
   render(): JSX.Element {
     return (
