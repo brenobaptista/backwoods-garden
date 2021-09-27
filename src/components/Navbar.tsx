@@ -27,28 +27,28 @@ const Navbar = (): JSX.Element => {
             </button>
           </div>
           <div className={`lg:flex items-center ${isOpen ? 'flex' : 'hidden'}`}>
-            <ul className='flex flex-col lg:flex-row list-none lg:ml-auto'>
-              <li className='nav-item'>
+            <ul className='flex flex-col lg:flex-row list-none lg:ml-auto text-xs lg:text-sm uppercase font-bold leading-snug'>
+              <li>
                 <a
-                  className='px-3 py-2 flex items-center text-xs lg:text-sm uppercase font-bold leading-snug hover:opacity-75'
+                  className='px-3 py-2 flex items-center hover:opacity-75'
                   href='#produtos'
                   onClick={() => setIsOpen(false)}
                 >
                   Produtos
                 </a>
               </li>
-              <li className='nav-item'>
+              <li>
                 <a
-                  className='px-3 py-2 flex items-center text-xs lg:text-sm uppercase font-bold leading-snug hover:opacity-75'
+                  className='px-3 py-2 flex items-center hover:opacity-75'
                   href='#avaliacoes'
                   onClick={() => setIsOpen(false)}
                 >
                   Avaliações
                 </a>
               </li>
-              <li className='nav-item'>
+              <li>
                 <a
-                  className='px-3 py-2 flex items-center text-xs lg:text-sm uppercase font-bold leading-snug hover:opacity-75'
+                  className='px-3 py-2 flex items-center hover:opacity-75'
                   href='#videos'
                   onClick={() => setIsOpen(false)}
                 >
