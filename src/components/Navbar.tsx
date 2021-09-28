@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 import Hamburger from './icons/Hamburger'
 import Leaf from './icons/Leaf'
@@ -6,6 +6,24 @@ import Theme from './Theme'
 
 const Navbar = (): JSX.Element => {
   const [isOpen, setIsOpen] = useState(false)
+
+  const toggleRef = useRef(null)
+  const menuRef = useRef(null)
+
+  useEffect(() => {
+    const handleClick = event => {
+      const insideToggle = toggleRef.current?.contains(event.target)
+      const insideMenu = menuRef.current?.contains(event.target)
+
+      if (!(insideToggle || insideMenu)) {
+        setIsOpen(false)
+      }
+    }
+
+    window.addEventListener('click', handleClick)
+
+    return () => window.removeEventListener('click', handleClick)
+  }, [])
 
   return (
     <>
@@ -22,11 +40,15 @@ const Navbar = (): JSX.Element => {
               type='button'
               className='lg:hidden w-10 h-10 p-2 rounded bg-gray-100 dark:bg-gray-900'
               onClick={() => setIsOpen(!isOpen)}
+              ref={toggleRef}
             >
               <Hamburger width={24} height={20} />
             </button>
           </div>
-          <div className={`lg:flex items-center ${isOpen ? 'flex' : 'hidden'}`}>
+          <div
+            className={`lg:flex items-center ${isOpen ? 'flex' : 'hidden'}`}
+            ref={menuRef}
+          >
             <ul className='flex flex-col lg:flex-row list-none lg:ml-auto text-xs lg:text-sm uppercase font-bold leading-snug'>
               <li>
                 <a
