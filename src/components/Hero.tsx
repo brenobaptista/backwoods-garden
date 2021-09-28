@@ -13,7 +13,7 @@ const Hero = (): JSX.Element => (
       </p>
       <div className='flex flex-col sm:flex-row justify-center lg:justify-start items-center space-y-4 sm:space-y-0 sm:space-x-6 mt-16'>
         <a
-          className='flex justify-center space-x-2 w-64 text-base lg:text-xl shadow-xl rounded p-4 text-center border-2 bg-gray-700 border-gray-700 dark:bg-gray-800 dark:border-gray-800 hover:opacity-75 text-white transition duration-300 ease-in-out'
+          className='flex justify-center space-x-2 w-64 text-base lg:text-xl shadow-xl rounded p-4 text-center border-2 bg-gray-700 border-gray-700 dark:bg-gray-800 dark:border-gray-800 hover:opacity-75 text-white transition motion-reduce:transition-none duration-300 ease-in-out'
           href='http://instagram.com/_u/jardim.caipira'
           target='_blank'
           rel='noreferrer noopener'
@@ -22,7 +22,7 @@ const Hero = (): JSX.Element => (
           <span>Ver Instagram</span>
         </a>
         <a
-          className='flex justify-center space-x-2 w-64 text-base lg:text-xl shadow-xl rounded p-4 text-center border-2 hover:bg-gray-700 border-gray-700 text-gray-700 dark:hover:bg-gray-800 dark:border-gray-800 dark:text-white hover:text-white transition duration-300 ease-in-out'
+          className='flex justify-center space-x-2 w-64 text-base lg:text-xl shadow-xl rounded p-4 text-center border-2 hover:bg-gray-700 border-gray-700 text-gray-700 dark:hover:bg-gray-800 dark:border-gray-800 dark:text-white hover:text-white transition motion-reduce:transition-none duration-300 ease-in-out'
           href='https://api.whatsapp.com/send?phone=5585988709845&text=Ol%C3%A1!%20Peguei%20seu%20telefone%20no%20site%20do%20Jardim%20Caipira.'
           target='_blank'
           rel='noreferrer noopener'

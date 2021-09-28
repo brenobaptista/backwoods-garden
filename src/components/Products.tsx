@@ -11,7 +11,7 @@ const Products = (): JSX.Element => (
       <div className='flex flex-wrap'>
         <div className='w-full md:w-1/3 p-4'>
           <div className='group flex justify-center items-center bg-black dark:bg-gray-800 text-gray-200 rounded'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img
                 src='/images/products/cactos.jpg'
                 alt='Cactos'
@@ -20,7 +20,7 @@ const Products = (): JSX.Element => (
                 height={480}
               />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <span className='text-3xl font-bold tracking-wider leading-relaxed'>
                 Cactos
               </span>
@@ -30,7 +30,7 @@ const Products = (): JSX.Element => (
 
         <div className='w-full md:w-1/3 p-4'>
           <div className='group flex justify-center items-center bg-black dark:bg-gray-800 text-gray-200 rounded'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img
                 src='/images/products/decoracao.jpg'
                 alt='Decoração'
@@ -39,7 +39,7 @@ const Products = (): JSX.Element => (
                 height={480}
               />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <span className='text-3xl font-bold tracking-wider leading-relaxed'>
                 Decoração
               </span>
@@ -49,7 +49,7 @@ const Products = (): JSX.Element => (
 
         <div className='w-full md:w-1/3 p-4'>
           <div className='group flex justify-center items-center bg-black dark:bg-gray-800 text-gray-200 rounded'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img
                 src='/images/products/suculenta.jpg'
                 alt='Suculenta'
@@ -58,7 +58,7 @@ const Products = (): JSX.Element => (
                 height={480}
               />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <span className='text-3xl font-bold tracking-wider leading-relaxed'>
                 Suculenta
               </span>
@@ -68,7 +68,7 @@ const Products = (): JSX.Element => (
 
         <div className='w-full md:w-1/3 p-4'>
           <div className='group flex justify-center items-center bg-black dark:bg-gray-800 text-gray-200 rounded'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img
                 src='/images/products/orquidea.jpg'
                 alt='Orquídea'
@@ -77,7 +77,7 @@ const Products = (): JSX.Element => (
                 height={480}
               />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <span className='text-3xl font-bold tracking-wider leading-relaxed'>
                 Orquídea
               </span>
@@ -87,7 +87,7 @@ const Products = (): JSX.Element => (
 
         <div className='w-full md:w-1/3 p-4'>
           <div className='group flex justify-center items-center bg-black dark:bg-gray-800 text-gray-200 rounded'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img
                 src='/images/products/gloxinia.jpg'
                 alt='Gloxínia'
@@ -96,7 +96,7 @@ const Products = (): JSX.Element => (
                 height={480}
               />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <span className='text-3xl font-bold tracking-wider leading-relaxed'>
                 Gloxínia
               </span>
@@ -106,7 +106,7 @@ const Products = (): JSX.Element => (
 
         <div className='w-full md:w-1/3 p-4'>
           <div className='group flex justify-center items-center bg-black dark:bg-gray-800 text-gray-200 rounded'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img
                 src='/images/products/bungavile.jpg'
                 alt='Bungavile'
@@ -115,7 +115,7 @@ const Products = (): JSX.Element => (
                 height={480}
               />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <span className='text-3xl font-bold tracking-wider leading-relaxed'>
                 Bungavile
               </span>
