@@ -1,3 +1,12 @@
+import Image from 'next/image'
+
+import cactos from '../../public/images/products/cactos.jpg'
+import decoracao from '../../public/images/products/decoracao.jpg'
+import suculenta from '../../public/images/products/suculenta.jpg'
+import orquidea from '../../public/images/products/orquidea.jpg'
+import gloxinia from '../../public/images/products/gloxinia.jpg'
+import bungavile from '../../public/images/products/bungavile.jpg'
+
 const Products = (): JSX.Element => (
   <section className='bg-white dark:bg-gray-800' id='produtos'>
     <div className='container mx-auto px-6 py-20'>
@@ -11,12 +20,11 @@ const Products = (): JSX.Element => (
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
         <div className='group flex justify-center items-center bg-black dark:bg-gray-800 text-gray-200'>
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img
-              src='/images/products/cactos.jpg'
+            <Image
+              src={cactos}
               alt='Cactos'
+              placeholder='blur'
               className='rounded'
-              width={480}
-              height={480}
             />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
@@ -27,12 +35,11 @@ const Products = (): JSX.Element => (
         </div>
         <div className='group flex justify-center items-center bg-black dark:bg-gray-800 text-gray-200'>
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img
-              src='/images/products/decoracao.jpg'
+            <Image
+              src={decoracao}
               alt='Decoração'
+              placeholder='blur'
               className='rounded'
-              width={480}
-              height={480}
             />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
@@ -43,12 +50,11 @@ const Products = (): JSX.Element => (
         </div>
         <div className='group flex justify-center items-center bg-black dark:bg-gray-800 text-gray-200'>
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img
-              src='/images/products/suculenta.jpg'
+            <Image
+              src={suculenta}
               alt='Suculenta'
+              placeholder='blur'
               className='rounded'
-              width={480}
-              height={480}
             />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
@@ -59,12 +65,11 @@ const Products = (): JSX.Element => (
         </div>
         <div className='group flex justify-center items-center bg-black dark:bg-gray-800 text-gray-200'>
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img
-              src='/images/products/orquidea.jpg'
+            <Image
+              src={orquidea}
               alt='Orquídea'
+              placeholder='blur'
               className='rounded'
-              width={480}
-              height={480}
             />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
@@ -75,12 +80,11 @@ const Products = (): JSX.Element => (
         </div>
         <div className='group flex justify-center items-center bg-black dark:bg-gray-800 text-gray-200'>
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img
-              src='/images/products/gloxinia.jpg'
+            <Image
+              src={gloxinia}
               alt='Gloxínia'
+              placeholder='blur'
               className='rounded'
-              width={480}
-              height={480}
             />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
@@ -91,12 +95,11 @@ const Products = (): JSX.Element => (
         </div>
         <div className='group flex justify-center items-center bg-black dark:bg-gray-800 text-gray-200'>
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img
-              src='/images/products/bungavile.jpg'
+            <Image
+              src={bungavile}
               alt='Bungavile'
+              placeholder='blur'
               className='rounded'
-              width={480}
-              height={480}
             />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>

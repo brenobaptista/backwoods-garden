@@ -1,3 +1,8 @@
+import Image from 'next/image'
+
+import raizesPodres from '../../public/images/thumbnails/como-tratar-raizes-podres.jpg'
+import resultadoRaizes from '../../public/images/thumbnails/resultado-do-tratamento.jpg'
+
 const Videos = (): JSX.Element => (
   <section className='bg-indigo-100 dark:bg-gray-700' id='videos'>
     <div className='container mx-auto px-6 py-20'>
@@ -16,11 +21,11 @@ const Videos = (): JSX.Element => (
               target='_blank'
               rel='noreferrer noopener'
             >
-              <img
-                src='/images/thumbnails/como-tratar-raizes-podres.jpg'
+              <Image
+                src={raizesPodres}
                 alt='Como tratar raízes podres'
-                width={712}
-                height={401}
+                placeholder='blur'
+                className='rounded'
               />
               <p className='text-lg lg:text-2xl text-center font-semibold pt-2 pb-4'>
                 Como tratar raízes podres
@@ -35,11 +40,11 @@ const Videos = (): JSX.Element => (
               target='_blank'
               rel='noreferrer noopener'
             >
-              <img
-                src='/images/thumbnails/resultado-do-tratamento.jpg'
+              <Image
+                src={resultadoRaizes}
                 alt='Resultado do tratamento'
-                width={712}
-                height={401}
+                placeholder='blur'
+                className='rounded'
               />
               <p className='text-lg lg:text-2xl text-center font-semibold pt-2 pb-4'>
                 Resultado do tratamento

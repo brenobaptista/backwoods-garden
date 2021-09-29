@@ -29,7 +29,6 @@
     "import/no-unresolved": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
-    "no-undef": "off",
-    "@next/next/no-img-element": "off"
+    "no-undef": "off"
   }
 }
