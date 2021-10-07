@@ -4,7 +4,7 @@ import Moon from './icons/Moon'
 import Sun from './icons/Sun'
 
 const Theme = (): JSX.Element => {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState<boolean>(false)
 
   useEffect(() => {
     if (

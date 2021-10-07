@@ -5,10 +5,10 @@ import Leaf from './icons/Leaf'
 import Theme from './Theme'
 
 const Navbar = (): JSX.Element => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState<boolean>(false)
 
-  const toggleRef = useRef(null)
-  const menuRef = useRef(null)
+  const toggleRef = useRef<HTMLButtonElement>(null)
+  const menuRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const handleClick = event => {
