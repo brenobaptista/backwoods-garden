@@ -19,9 +19,11 @@ module.exports = {
   },
   variants: {
     extend: {
+      opacity: ['dark'],
       animation: ['motion-safe'],
-      transitionProperty: ['motion-reduce']
-    },
+      transitionProperty: ['motion-reduce'],
+      blur: ['group-hover']
+    }
   },
   plugins: []
 }
