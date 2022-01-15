@@ -30,7 +30,7 @@ const Theme = (): JSX.Element => {
 
   return (
     <button
-      aria-label='Toggle dark mode'
+      aria-label='Alternar modo escuro'
       type='button'
       className='w-10 h-10 p-2 rounded bg-gray-100 dark:bg-gray-900'
       onClick={() => setDarkMode(!darkMode)}

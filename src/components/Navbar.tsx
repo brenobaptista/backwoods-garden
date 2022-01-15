@@ -36,7 +36,7 @@ const Navbar = (): JSX.Element => {
             </div>
             <Theme />
             <button
-              aria-label='Toggle navigation buttons'
+              aria-label='Alternar barra de navegação'
               type='button'
               className='lg:hidden w-10 h-10 p-2 rounded bg-gray-100 dark:bg-gray-900'
               onClick={() => setIsOpen(!isOpen)}
