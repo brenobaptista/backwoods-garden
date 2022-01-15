@@ -11,6 +11,7 @@ const Moon = ({ width, height }: Props): JSX.Element => (
     height={height}
     fill='none'
     stroke='currentColor'
+    aria-hidden='true'
   >
     <title>Ativar modo claro</title>
     <path
