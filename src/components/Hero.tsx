@@ -1,5 +1,4 @@
-import Instagram from './icons/Instagram'
-import WhatsApp from './icons/WhatsApp'
+import { Instagram, WhatsApp } from './icons'
 
 const Hero = (): JSX.Element => (
   <header className='bg-indigo-100 dark:bg-gray-700 lg:bg-hero-desktop lg:bg-no-repeat lg:bg-right-bottom'>

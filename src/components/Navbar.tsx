@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 
-import Hamburger from './icons/Hamburger'
-import Leaf from './icons/Leaf'
+import { Hamburger, Leaf } from './icons'
 import Theme from './Theme'
 
 const Navbar = (): JSX.Element => {

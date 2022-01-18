@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 
-import Moon from './icons/Moon'
-import Sun from './icons/Sun'
+import { Moon, Sun } from './icons'
 
 const Theme = (): JSX.Element => {
   const [darkMode, setDarkMode] = useState<boolean>(false)

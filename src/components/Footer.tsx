@@ -1,10 +1,12 @@
-import Clock from './icons/Clock'
-import Comment from './icons/Comment'
-import Facebook from './icons/Facebook'
-import Heart from './icons/Heart'
-import Instagram from './icons/Instagram'
-import Map from './icons/Map'
-import WhatsApp from './icons/WhatsApp'
+import {
+  Clock,
+  Comment,
+  Facebook,
+  Heart,
+  Instagram,
+  Map,
+  WhatsApp
+} from './icons'
 
 const Footer = (): JSX.Element => (
   <footer className='bg-white dark:bg-gray-800'>

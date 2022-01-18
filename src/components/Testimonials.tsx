@@ -1,4 +1,4 @@
-import Heart from './icons/Heart'
+import { Heart } from './icons'
 
 const Testimonials = (): JSX.Element => (
   <section className='bg-gray-100 dark:bg-gray-900' id='avaliacoes'>
