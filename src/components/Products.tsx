@@ -19,7 +19,7 @@ const Products = (): JSX.Element => (
       </p>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
         <div className='group flex justify-center items-center'>
-          <div className='filter group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image
               src={cactos}
               alt='Cactos'
@@ -34,7 +34,7 @@ const Products = (): JSX.Element => (
           </div>
         </div>
         <div className='group flex justify-center items-center'>
-          <div className='filter group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image
               src={decoracao}
               alt='Decoração'
@@ -49,7 +49,7 @@ const Products = (): JSX.Element => (
           </div>
         </div>
         <div className='group flex justify-center items-center'>
-          <div className='filter group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image
               src={suculenta}
               alt='Suculenta'
@@ -64,7 +64,7 @@ const Products = (): JSX.Element => (
           </div>
         </div>
         <div className='group flex justify-center items-center'>
-          <div className='filter group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image
               src={orquidea}
               alt='Orquídea'
@@ -79,7 +79,7 @@ const Products = (): JSX.Element => (
           </div>
         </div>
         <div className='group flex justify-center items-center'>
-          <div className='filter group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image
               src={gloxinia}
               alt='Gloxínia'
@@ -94,7 +94,7 @@ const Products = (): JSX.Element => (
           </div>
         </div>
         <div className='group flex justify-center items-center'>
-          <div className='filter group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image
               src={bungavile}
               alt='Bungavile'

@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/pages/**/*.{ts,tsx}', './src/components/**/*.{ts,tsx}'],
+  content: ['./src/pages/**/*.{ts,tsx}', './src/components/**/*.{ts,tsx}'],
   darkMode: 'class',
   theme: {
     extend: {
@@ -15,14 +15,6 @@ module.exports = {
           '25%': { transform: 'scale(1.2)' }
         }
       }
-    }
-  },
-  variants: {
-    extend: {
-      opacity: ['dark'],
-      animation: ['motion-safe'],
-      transitionProperty: ['motion-reduce'],
-      blur: ['group-hover']
     }
   },
   plugins: []
