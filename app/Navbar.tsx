@@ -1,7 +1,9 @@
+'use client'
+
 import { useState, useEffect, useRef } from 'react'
 
-import { Hamburger, Leaf } from './icons'
-import ThemeSwitcher from './ThemeSwitcher'
+import { Hamburger, Leaf } from '@/icons'
+import ThemeSwitcher from '@/components/ThemeSwitcher'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false)
@@ -30,7 +32,7 @@ const Navbar = () => {
         <div className='container mx-auto flex flex-wrap justify-between'>
           <div className='flex w-full justify-between lg:w-auto lg:space-x-96'>
             <Logo />
-            <ThemeSwitcher />
+            <ThemeSwitcher className='h-10 w-10 rounded p-2' />
             <button
               aria-label='Alternar barra de navegação'
               type='button'

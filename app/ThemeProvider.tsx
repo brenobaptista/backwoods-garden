@@ -1,9 +1,16 @@
-import { useState, useEffect } from 'react'
+'use client'
 
-import { Moon, Sun } from './icons'
+import { useState, useEffect, ReactNode } from 'react'
 
-const ThemeSwitcher = () => {
+import DarkModeContext from '@/contexts/DarkModeContext'
+
+interface Props {
+  children: ReactNode
+}
+
+const ThemeProvider = ({ children }: Props) => {
   const [darkMode, setDarkMode] = useState<boolean>(false)
+  const [mounted, SetMounted] = useState<boolean>(false)
 
   useEffect(() => {
     if (
@@ -25,22 +32,17 @@ const ThemeSwitcher = () => {
       document.documentElement.classList.remove('dark')
       document.documentElement.setAttribute('style', 'color-scheme: light')
     }
+
+    SetMounted(true)
   }, [darkMode])
 
+  const toggleDarkMode = () => setDarkMode(!darkMode)
+
   return (
-    <button
-      aria-label='Alternar modo escuro'
-      type='button'
-      className='h-10 w-10 rounded p-2'
-      onClick={() => setDarkMode(!darkMode)}
-    >
-      {darkMode ? (
-        <Moon width={24} height={24} />
-      ) : (
-        <Sun width={24} height={24} />
-      )}
-    </button>
+    <DarkModeContext.Provider value={{ darkMode, toggleDarkMode }}>
+      {mounted && children}
+    </DarkModeContext.Provider>
   )
 }
 
-export default ThemeSwitcher
+export default ThemeProvider
