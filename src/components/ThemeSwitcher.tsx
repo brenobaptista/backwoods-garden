@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 import { Moon, Sun } from './icons'
 
-const Theme = (): JSX.Element => {
+const ThemeSwitcher = () => {
   const [darkMode, setDarkMode] = useState<boolean>(false)
 
   useEffect(() => {
@@ -31,7 +31,7 @@ const Theme = (): JSX.Element => {
     <button
       aria-label='Alternar modo escuro'
       type='button'
-      className='w-10 h-10 p-2 rounded bg-gray-100 dark:bg-gray-900'
+      className='h-10 w-10 rounded p-2'
       onClick={() => setDarkMode(!darkMode)}
     >
       {darkMode ? (
@@ -43,4 +43,4 @@ const Theme = (): JSX.Element => {
   )
 }
 
-export default Theme
+export default ThemeSwitcher

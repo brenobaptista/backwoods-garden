@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from 'react'
 
 import { Hamburger, Leaf } from './icons'
-import Theme from './Theme'
+import ThemeSwitcher from './ThemeSwitcher'
 
-const Navbar = (): JSX.Element => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false)
 
   const toggleRef = useRef<HTMLButtonElement>(null)
@@ -26,18 +26,15 @@ const Navbar = (): JSX.Element => {
 
   return (
     <>
-      <nav className='fixed w-full shadow-xl px-8 py-3 bg-white dark:bg-gray-800 z-10'>
+      <nav className='fixed z-10 w-full bg-white px-8 py-3 shadow-xl dark:bg-gray-800'>
         <div className='container mx-auto flex flex-wrap justify-between'>
-          <div className='flex justify-between w-full lg:w-auto lg:space-x-96'>
-            <div className='flex space-x-2 text-base lg:text-lg font-bold py-2 whitespace-nowrap'>
-              <Leaf width={22} height={26} />
-              <span>Jardim Caipira</span>
-            </div>
-            <Theme />
+          <div className='flex w-full justify-between lg:w-auto lg:space-x-96'>
+            <Logo />
+            <ThemeSwitcher />
             <button
               aria-label='Alternar barra de navegação'
               type='button'
-              className='lg:hidden w-10 h-10 p-2 rounded bg-gray-100 dark:bg-gray-900'
+              className='h-10 w-10 rounded p-2 lg:hidden'
               onClick={() => setIsOpen(!isOpen)}
               ref={toggleRef}
             >
@@ -45,13 +42,13 @@ const Navbar = (): JSX.Element => {
             </button>
           </div>
           <div
-            className={`lg:flex items-center ${isOpen ? 'flex' : 'hidden'}`}
+            className={`items-center lg:flex ${isOpen ? 'flex' : 'hidden'}`}
             ref={menuRef}
           >
-            <ul className='flex flex-col lg:flex-row list-none lg:ml-auto text-xs lg:text-sm uppercase font-bold leading-snug'>
+            <ul className='flex list-none flex-col text-xs font-bold uppercase leading-snug lg:ml-auto lg:flex-row lg:text-sm'>
               <li>
                 <a
-                  className='px-3 py-2 flex items-center hover:opacity-75'
+                  className='flex items-center px-3 py-2 hover:opacity-75'
                   href='#produtos'
                   onClick={() => setIsOpen(false)}
                 >
@@ -60,7 +57,7 @@ const Navbar = (): JSX.Element => {
               </li>
               <li>
                 <a
-                  className='px-3 py-2 flex items-center hover:opacity-75'
+                  className='flex items-center px-3 py-2 hover:opacity-75'
                   href='#avaliacoes'
                   onClick={() => setIsOpen(false)}
                 >
@@ -69,7 +66,7 @@ const Navbar = (): JSX.Element => {
               </li>
               <li>
                 <a
-                  className='px-3 py-2 flex items-center hover:opacity-75'
+                  className='flex items-center px-3 py-2 hover:opacity-75'
                   href='#videos'
                   onClick={() => setIsOpen(false)}
                 >
@@ -83,5 +80,12 @@ const Navbar = (): JSX.Element => {
     </>
   )
 }
+
+const Logo = () => (
+  <div className='flex space-x-2 whitespace-nowrap py-2 text-base font-bold lg:text-lg'>
+    <Leaf width={22} height={26} />
+    <span>Jardim Caipira</span>
+  </div>
+)
 
 export default Navbar

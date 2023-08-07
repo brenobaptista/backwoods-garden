@@ -5,8 +5,8 @@ import Products from '../components/Products'
 import Testimonials from '../components/Testimonials'
 import Videos from '../components/Videos'
 
-const Home = (): JSX.Element => (
-  <div className='text-gray-800 dark:text-gray-200 transition-colors motion-reduce:transition-none font-sans antialiased'>
+const Home = () => (
+  <div className='text-gray-800 dark:text-gray-200'>
     <Navbar />
     <Hero />
     <Products />

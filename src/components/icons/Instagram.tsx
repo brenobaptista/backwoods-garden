@@ -3,7 +3,7 @@ interface Props {
   height: number
 }
 
-const Instagram = ({ width, height }: Props): JSX.Element => (
+const Instagram = ({ width, height }: Props) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     viewBox='0 0 448 512'

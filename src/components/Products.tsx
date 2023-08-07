@@ -7,19 +7,19 @@ import orquidea from '../../public/images/products/orquidea.jpg'
 import gloxinia from '../../public/images/products/gloxinia.jpg'
 import bungavile from '../../public/images/products/bungavile.jpg'
 
-const Products = (): JSX.Element => (
+const Products = () => (
   <section className='bg-white dark:bg-gray-800' id='produtos'>
     <div className='container mx-auto px-6 py-20'>
-      <h1 className='text-4xl font-bold text-center mb-4'>
+      <h1 className='mb-4 text-center text-4xl font-bold'>
         Conheça Nossos Produtos
       </h1>
-      <p className='text-gray-500 dark:text-gray-400 mb-12 text-center text-xl'>
+      <p className='mb-12 text-center text-xl text-gray-500 dark:text-gray-400'>
         Visite nossa loja física ou acesse nossas redes sociais para mais
         informações.
       </p>
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
-        <div className='group flex justify-center items-center'>
-          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+      <div className='grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
+        <div className='group flex items-center justify-center'>
+          <div className='transition duration-300 ease-in-out group-hover:opacity-50 group-hover:blur-sm motion-reduce:transition-none dark:group-hover:opacity-25'>
             <Image
               src={cactos}
               alt='Cactos'
@@ -27,14 +27,14 @@ const Products = (): JSX.Element => (
               className='rounded'
             />
           </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <span className='text-3xl font-bold tracking-wider leading-relaxed'>
+          <div className='absolute opacity-0 transition duration-300 ease-in-out group-hover:opacity-100 motion-reduce:transition-none'>
+            <span className='text-3xl font-bold leading-relaxed tracking-wider'>
               Cactos
             </span>
           </div>
         </div>
-        <div className='group flex justify-center items-center'>
-          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+        <div className='group flex items-center justify-center'>
+          <div className='transition duration-300 ease-in-out group-hover:opacity-50 group-hover:blur-sm motion-reduce:transition-none dark:group-hover:opacity-25'>
             <Image
               src={decoracao}
               alt='Decoração'
@@ -42,14 +42,14 @@ const Products = (): JSX.Element => (
               className='rounded'
             />
           </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <span className='text-3xl font-bold tracking-wider leading-relaxed'>
+          <div className='absolute opacity-0 transition duration-300 ease-in-out group-hover:opacity-100 motion-reduce:transition-none'>
+            <span className='text-3xl font-bold leading-relaxed tracking-wider'>
               Decoração
             </span>
           </div>
         </div>
-        <div className='group flex justify-center items-center'>
-          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+        <div className='group flex items-center justify-center'>
+          <div className='transition duration-300 ease-in-out group-hover:opacity-50 group-hover:blur-sm motion-reduce:transition-none dark:group-hover:opacity-25'>
             <Image
               src={suculenta}
               alt='Suculenta'
@@ -57,14 +57,14 @@ const Products = (): JSX.Element => (
               className='rounded'
             />
           </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <span className='text-3xl font-bold tracking-wider leading-relaxed'>
+          <div className='absolute opacity-0 transition duration-300 ease-in-out group-hover:opacity-100 motion-reduce:transition-none'>
+            <span className='text-3xl font-bold leading-relaxed tracking-wider'>
               Suculenta
             </span>
           </div>
         </div>
-        <div className='group flex justify-center items-center'>
-          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+        <div className='group flex items-center justify-center'>
+          <div className='transition duration-300 ease-in-out group-hover:opacity-50 group-hover:blur-sm motion-reduce:transition-none dark:group-hover:opacity-25'>
             <Image
               src={orquidea}
               alt='Orquídea'
@@ -72,14 +72,14 @@ const Products = (): JSX.Element => (
               className='rounded'
             />
           </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <span className='text-3xl font-bold tracking-wider leading-relaxed'>
+          <div className='absolute opacity-0 transition duration-300 ease-in-out group-hover:opacity-100 motion-reduce:transition-none'>
+            <span className='text-3xl font-bold leading-relaxed tracking-wider'>
               Orquídea
             </span>
           </div>
         </div>
-        <div className='group flex justify-center items-center'>
-          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+        <div className='group flex items-center justify-center'>
+          <div className='transition duration-300 ease-in-out group-hover:opacity-50 group-hover:blur-sm motion-reduce:transition-none dark:group-hover:opacity-25'>
             <Image
               src={gloxinia}
               alt='Gloxínia'
@@ -87,14 +87,14 @@ const Products = (): JSX.Element => (
               className='rounded'
             />
           </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <span className='text-3xl font-bold tracking-wider leading-relaxed'>
+          <div className='absolute opacity-0 transition duration-300 ease-in-out group-hover:opacity-100 motion-reduce:transition-none'>
+            <span className='text-3xl font-bold leading-relaxed tracking-wider'>
               Gloxínia
             </span>
           </div>
         </div>
-        <div className='group flex justify-center items-center'>
-          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+        <div className='group flex items-center justify-center'>
+          <div className='transition duration-300 ease-in-out group-hover:opacity-50 group-hover:blur-sm motion-reduce:transition-none dark:group-hover:opacity-25'>
             <Image
               src={bungavile}
               alt='Bungavile'
@@ -102,8 +102,8 @@ const Products = (): JSX.Element => (
               className='rounded'
             />
           </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <span className='text-3xl font-bold tracking-wider leading-relaxed'>
+          <div className='absolute opacity-0 transition duration-300 ease-in-out group-hover:opacity-100 motion-reduce:transition-none'>
+            <span className='text-3xl font-bold leading-relaxed tracking-wider'>
               Bungavile
             </span>
           </div>
