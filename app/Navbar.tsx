@@ -32,50 +32,59 @@ const Navbar = () => {
         <div className='container mx-auto flex flex-wrap justify-between'>
           <div className='flex w-full justify-between lg:w-auto lg:space-x-96'>
             <Logo />
-            <ThemeSwitcher className='h-10 w-10 rounded p-2' />
-            <button
-              aria-label='Alternar barra de navegação'
-              type='button'
-              className='h-10 w-10 rounded p-2 lg:hidden'
-              onClick={() => setIsOpen(!isOpen)}
-              ref={toggleRef}
-            >
-              <Hamburger width={24} height={20} />
-            </button>
+            <div className='flex items-center gap-2 sm:gap-8 '>
+              <div className='lg:hidden'>
+                <ThemeSwitcher className='h-10 w-10 rounded p-2' />
+              </div>
+              <button
+                aria-label='Alternar barra de navegação'
+                type='button'
+                className='h-10 w-10 rounded p-2 lg:hidden'
+                onClick={() => setIsOpen(!isOpen)}
+                ref={toggleRef}
+              >
+                <Hamburger width={24} height={20} />
+              </button>
+            </div>
           </div>
-          <div
-            className={`items-center lg:flex ${isOpen ? 'flex' : 'hidden'}`}
-            ref={menuRef}
-          >
-            <ul className='flex list-none flex-col text-xs font-bold uppercase leading-snug lg:ml-auto lg:flex-row lg:text-sm'>
-              <li>
-                <a
-                  className='flex items-center px-3 py-2 hover:opacity-75'
-                  href='#produtos'
-                  onClick={() => setIsOpen(false)}
-                >
-                  Produtos
-                </a>
-              </li>
-              <li>
-                <a
-                  className='flex items-center px-3 py-2 hover:opacity-75'
-                  href='#avaliacoes'
-                  onClick={() => setIsOpen(false)}
-                >
-                  Avaliações
-                </a>
-              </li>
-              <li>
-                <a
-                  className='flex items-center px-3 py-2 hover:opacity-75'
-                  href='#videos'
-                  onClick={() => setIsOpen(false)}
-                >
-                  Vídeos
-                </a>
-              </li>
-            </ul>
+          <div className='flex items-center gap-16'>
+            <div className='hidden lg:block'>
+              <ThemeSwitcher className='h-10 w-10 rounded p-2' />
+            </div>
+            <div
+              className={`items-center lg:flex ${isOpen ? 'flex' : 'hidden'}`}
+              ref={menuRef}
+            >
+              <ul className='flex list-none flex-col text-xs font-bold uppercase leading-snug lg:ml-auto lg:flex-row lg:text-sm'>
+                <li>
+                  <a
+                    className='flex items-center px-3 py-2 hover:opacity-75'
+                    href='#produtos'
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Produtos
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='flex items-center px-3 py-2 hover:opacity-75'
+                    href='#avaliacoes'
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Avaliações
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='flex items-center px-3 py-2 hover:opacity-75'
+                    href='#videos'
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Vídeos
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
