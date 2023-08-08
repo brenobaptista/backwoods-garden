@@ -65,7 +65,7 @@ const SideDrawer = () => {
     <>
       {isSideDrawerOpen && <Backdrop />}
       <div
-        className={`fixed left-0 top-0 z-30 h-full w-72 max-w-[70%] bg-gray-100 px-4 py-8 transition-transform duration-300 ease-out dark:bg-gray-900 sm:hidden ${
+        className={`fixed left-0 top-0 z-30 h-full w-72 max-w-[70%] bg-white px-4 py-8 transition-transform duration-300 ease-out dark:bg-gray-800 sm:hidden ${
           !isSideDrawerOpen && '-translate-x-full'
         }`}
       >
