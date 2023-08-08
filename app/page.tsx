@@ -1,7 +1,6 @@
 import Image from 'next/image'
 
-import Navbar from './Navbar'
-
+import Header from './Header'
 import {
   Clock,
   Comment,
@@ -11,10 +10,8 @@ import {
   Map,
   WhatsApp
 } from '@/icons'
-
 import raizesPodres from 'public/images/thumbnails/como-tratar-raizes-podres.jpg'
 import resultadoRaizes from 'public/images/thumbnails/resultado-do-tratamento.jpg'
-
 import cactos from 'public/images/products/cactos.jpg'
 import decoracao from 'public/images/products/decoracao.jpg'
 import suculenta from 'public/images/products/suculenta.jpg'
@@ -24,7 +21,7 @@ import bungavile from 'public/images/products/bungavile.jpg'
 
 const Page = () => (
   <div className='text-gray-800 dark:text-gray-200'>
-    <Navbar />
+    <Header />
     <Hero />
     <Products />
     <Testimonials />
