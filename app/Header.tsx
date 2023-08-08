@@ -1,10 +1,9 @@
 'use client'
 
-import { useState, useContext, ReactNode } from 'react'
+import { useState, useContext, createContext, ReactNode } from 'react'
 
 import { Hamburger, Leaf } from '@/icons'
 import ThemeSwitcher from '@/components/ThemeSwitcher'
-import SideDrawerContext from '@/contexts/SideDrawerContext'
 
 const Header = () => {
   const [isSideDrawerOpen, setIsSideDrawerOpen] = useState(false)
@@ -20,6 +19,16 @@ const Header = () => {
     </div>
   )
 }
+
+interface ISideDrawerContext {
+  isSideDrawerOpen: boolean
+  setIsSideDrawerOpen(isOpen: boolean): void
+}
+
+const SideDrawerContext = createContext<ISideDrawerContext>({
+  isSideDrawerOpen: false,
+  setIsSideDrawerOpen: () => null
+})
 
 const Toolbar = () => (
   <header className='fixed left-0 top-0 z-10 h-14 w-full bg-white px-4 shadow-xl dark:bg-gray-800'>
